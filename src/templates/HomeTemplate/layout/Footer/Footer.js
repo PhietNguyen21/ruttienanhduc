@@ -78,6 +78,45 @@ const Footer = () => {
                   alignItems: "center",
                 }}
               >
+                <HomeOutlined style={{ color: "red", fontSize: "16px" }} />{" "}
+                <p
+                  style={{
+                    marginBottom: "0",
+                    marginLeft: "10px",
+                    fontSize: 16,
+                  }}
+                >
+                  Cơ sở 3: Khu vực Mỹ Đình Cầu giấy
+                </p>
+              </div>
+
+              <div
+                className="mt-2"
+                style={{
+                  display: "flex",
+
+                  alignItems: "center",
+                }}
+              >
+                <HomeOutlined style={{ color: "red", fontSize: "16px" }} />{" "}
+                <p
+                  style={{
+                    marginBottom: "0",
+                    marginLeft: "10px",
+                    fontSize: 16,
+                  }}
+                >
+                  Cơ sở 4: khu vực Thanh xuân Hoàng Mai
+                </p>
+              </div>
+              <div
+                className="mt-2"
+                style={{
+                  display: "flex",
+
+                  alignItems: "center",
+                }}
+              >
                 <PhoneOutlined style={{ color: "green", fontSize: "16px" }} />{" "}
                 <a
                   href="tel:0835389666"

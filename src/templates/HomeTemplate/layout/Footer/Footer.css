@@ -9,6 +9,6 @@
         margin-bottom: 20px;
     }
     .map {
-        width: 350px !important;
+        width: 100% !important;
     }
 }

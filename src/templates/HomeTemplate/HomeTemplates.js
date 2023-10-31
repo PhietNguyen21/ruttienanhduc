@@ -45,11 +45,11 @@ const HomeTemplates = () => {
               <div className="d-md-flex" style={{ alignItems: "center" }}>
                 <span> Phí chỉ từ</span>{" "}
                 <span
+                  className="ml-0 ml-md-4"
                   style={{
                     color: "rgb(23, 171, 201)",
                     fontSize: "46px",
                     fontWeight: "bold",
-                    marginLeft: "20px",
                   }}
                 >
                   1.3%
@@ -73,9 +73,9 @@ const HomeTemplates = () => {
               <table className="responsive-table">
                 <thead>
                   <tr>
-                    <th>Số Tiền Cần Làm</th>
-                    <th>Giá hỗ trợ tại nhà</th>
-                    <th>Giá tại văn phòng</th>
+                    <th>Đáo-Rút</th>
+                    <th>Hỗ trợ tại nhà</th>
+                    <th>Hỗ trợ tại văn phòng</th>
                   </tr>
                 </thead>
                 <tbody>

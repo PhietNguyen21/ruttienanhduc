@@ -13,7 +13,7 @@ header {
 }
 
 .header-right {
-    background-color: rgb(22, 199, 46);
+    background-color: #1e1e1e;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -40,7 +40,7 @@ header {
 /* CSS */
 .button-33 {
     animation: btn-animation 1.6s infinite;
-    background-color: #c2fbd7;
+    background-color: #4caf50; /* Đổi màu nền tương phản hơn với nền đen */
     border-radius: 100px;
     box-shadow:
         rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
@@ -49,7 +49,7 @@ header {
         rgba(44, 187, 99, 0.15) 0 4px 8px,
         rgba(44, 187, 99, 0.15) 0 8px 16px,
         rgba(44, 187, 99, 0.15) 0 16px 32px;
-    color: green;
+    color: #ffffff; /* Đổi màu chữ thành trắng */
     cursor: pointer;
     display: inline-block;
     font-family:
@@ -96,11 +96,11 @@ header {
 
 /* CSS */
 .button-34 {
-    background: #5e5df0;
+    background: #ff6347; /* Đổi màu nền tương phản hơn */
     border-radius: 999px;
-    box-shadow: #5e5df0 0 10px 20px -10px;
+    box-shadow: #ff6347 0 10px 20px -10px; /* Đổi màu shadow tương phản hơn */
     box-sizing: border-box;
-    color: #ffffff;
+    color: #ffffff; /* Đổi màu chữ thành trắng */
     cursor: pointer;
     font-family:
         Inter,
@@ -166,6 +166,9 @@ header {
         height: auto;
     }
 
+    .header-left .img {
+        height: 531px !important;
+    }
     .header-right {
         width: 50%;
         padding: 40px;

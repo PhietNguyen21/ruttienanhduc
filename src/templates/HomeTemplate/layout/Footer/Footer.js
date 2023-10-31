@@ -170,24 +170,17 @@ const Footer = () => {
               >
                 <div className="img-visa">
                   <img
-                    width={40}
-                    height={40}
-                    src="./image/visa.svg"
+                    width={100}
+                    height={50}
+                    src="./image/thanhToan.webp"
                     alt="visa"
                   />
                 </div>
-                <div className="img-master">
-                  <img
-                    width={40}
-                    height={40}
-                    src="./image/mastercard.svg"
-                    alt="mastercard"
-                  />
-                </div>
+
                 <div className="img-BCT">
                   <img
                     width={40}
-                    height={40}
+                    height={50}
                     src="./image/BoCT.svg"
                     alt="boCT"
                   />
@@ -196,7 +189,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="col-12 col-md-6 mt-2">
-            <div className="map" style={{ width: 500 }}>
+            <div className="map" style={{ width: "100%" }}>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.7530376718596!2d105.79268287502956!3d20.962430580670375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad27ab377f8d%3A0xcdb4545d23468708!2sCT2A%20Xa%20La!5e0!3m2!1svi!2s!4v1698724376263!5m2!1svi!2s"
                 height={300}

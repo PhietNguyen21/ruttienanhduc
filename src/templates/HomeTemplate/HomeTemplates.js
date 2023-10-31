@@ -184,7 +184,13 @@ const HomeTemplates = () => {
             style={{ display: "flex", alignItems: "center" }}
           >
             <img width={30} height={30} src="./image/Phone.png" alt="phone" />
-            0835.389.666
+            <a
+              style={{ color: "white", textDecoration: "none" }}
+              href="tel: 0835.389.666"
+            >
+              {" "}
+              0835.389.666
+            </a>
           </button>
         </div>
       </div>

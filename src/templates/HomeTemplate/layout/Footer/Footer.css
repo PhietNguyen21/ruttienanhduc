@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+    .infoCty {
+        text-align: center;
+    }
+    .col-12 {
+        margin-bottom: 20px;
+    }
+    .map {
+        width: 400px !important;
+    }
+}

@@ -49,7 +49,7 @@ const Header = () => {
             <span style={{ color: "white" }}>QUẸT THẺ</span>{" "}
             <span style={{ color: "rgb(17, 10, 92)" }}></span>RÚT TIỀN
           </h1>
-          <div>
+          <div className="text-center">
             <p>ĐỊA ĐIỂM RÚT TIỀN THẺ TÍN DỤNG </p>
             <p>UY TÍN NHẤT HÀ NỘI </p>
 

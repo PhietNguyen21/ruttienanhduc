@@ -17,7 +17,7 @@ const Header = () => {
           <div className="img" style={imgLeftStyle}></div>
         </div>
         <div className="header-right ">
-          <div className="content">
+          <div className="content" style={{ textAlign: "center" }}>
             Đáo và rút thẻ tín dụng chỉ từ <br />
             <span
               style={{
